@@ -1,0 +1,107 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, #contenedor {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+	
+}
+
+#contenedor{
+	height: 300px;
+	padding: 10px 30px;
+	width: 450px;
+	box-shadow: 0 0 10px #afafaf;
+	float: left;	
+
+}
+
+h2{
+	text-align: center;
+}
+
+
+.boton, .boton_refresh{
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	border: 2px solid #ffbd33;
+	box-shadow: 0 0 10px #afafaf;
+	color:#ffbd33;
+	text-align: center;
+	float:left;
+	margin: 50px 30px 40px 40px;
+	
+}
+
+.boton a, .boton_refresh a{
+	text-decoration: none;
+	color: #ffbd33;
+	display: block;
+	width: 100px;
+	padding: 10px 20px;
+	
+}
+
+.boton:hover, .boton_refresh:hover{
+	box-shadow: 5px 10px 10px #7c7c7c;
+	cursor: pointer;
+	transition: all ease 300ms;
+	transform: translate(0, -5px);
+	-webkit-transform: translate(0, -5px);
+	-moz-transform: translate(0, -5px);
+	
+	
+}
+
+#calculoIva{
+	clear: both;
+}
+
+.importe_total {
+	font-weight: bold;
+	font-size: 25px;
+	color: #c95318;
+
+}
+
+figure{
+	float: right;
+	margin: 0 0 0 50px;
+	width:400px;
+	height: 320px;
+	box-shadow: 0 0 10px #afafaf;
+	padding: 50px 100px;
+	box-sizing: border-box;
+	border-radius:0 20px;
+
+}
+
+#calculadora, #check, #wrong{
+	width: 200px;
+	height: auto;
+}
+
+#calculadora:hover, #check:hover, #wrong:hover{
+	cursor: pointer;
+	transition: all ease 300ms;
+	transform: translate(0, -5px);
+	-webkit-transform: translate(0, -5px);
+	-moz-transform: translate(0, -5px);
+		
+
+}
+
+span.invalido{
+	color: red;
+	font-size: 20px;
+}
+
+
